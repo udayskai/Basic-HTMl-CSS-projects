@@ -1,0 +1,144 @@
+
+body{
+    
+    
+    height:1fr;
+    background-image:url(./img/cover.jpg);
+    
+    background-color: white;
+    background-size: cover;
+}
+
+
+
+/* login box  */
+
+div.formbox{
+    width:500px;
+    height:350px;
+    position:relative;
+    top:180px;
+    margin: 0 auto;
+  }
+
+/* input */
+form.loginform{
+    width: 500px;
+    height: 350px;
+    color: rgb(209, 0, 0);
+    background-color: rgba(230, 64, 64, 0.562);
+    border: solid 10px rgb(255, 255, 255);
+    border-radius:10px;
+}
+ 
+form.loginform:hover{
+    background-color: rgba(255, 255, 255, 0.842);
+    }
+
+
+    form.loginform input[type="text"]  , input[type="password"] ,a , input[type="submit"] 
+{
+    
+    font-size:28px; 
+    border-radius: 40px;
+    border:none;
+    outline: none;
+    background:none;
+}
+
+
+
+
+/* text 111111111111111111111111111111111111111111111111111111111111        */
+form.loginform input[type="text"]
+{
+    height:40px;
+    width:250px;
+color:rgb(0, 0, 0);
+border-radius: 50px;
+position: absolute;
+left:120px;
+top:20px;
+border: 2px solid rgb(0, 0, 0);
+transition:  1s ease-in-out 0s;
+padding:10px 15px;
+
+}
+
+form.loginform input[type="text"]:focus{
+    
+    width:310px;
+}
+
+
+
+/* password */
+form.loginform input[type="password"]
+{
+    height:40px;
+    width:250px;
+color:rgb(0, 0, 0);
+border-radius: 50px;
+position: absolute;
+left:120px;
+top:105px;
+border: 2px solid rgb(0, 0, 0);
+transition: all 1s ease-in-out 0s;
+padding:10px 15px;
+}
+
+form.loginform input[type="password"]:focus{
+    
+    width:320px;
+}
+
+
+
+
+/*  login */
+form.loginform input[type="submit"]
+{
+    height:50px;
+    width:120px;
+color:white;
+border-radius: 50px;
+position: absolute;
+left:200px;
+top:175px;
+border: 1px solid rgb(226, 226, 226);
+padding:5px 12px;
+background-color: rgb(10, 10, 10);
+}
+
+
+/* guest login */
+
+
+
+a{    
+height:60px;
+width:150px;
+color:rgb(0, 0, 0);
+border-radius: 30px;
+position: absolute;
+left:165px;
+top:240px;
+border: 2px solid rgb(255, 255, 255);
+padding:8px 10px;
+background-color: rgb(194, 194, 194);
+text-align: center center;
+font-size: 30px;
+text-decoration-line: none;
+
+}
+
+ a:hover{
+    background-color: rgb(102, 236, 102);
+
+}
+
+
+
+
+
+ 
