@@ -4,9 +4,7 @@
     padding:0px 0px;
     background-color: rgb(254, 255, 253);
 }
-
-
-/*                                     top                              top                     top     */
+/*        top   */
 
 header{
     /* border:solid 2px red solid 2px;
@@ -72,20 +70,8 @@ div.logo a{
 
 
 
-
-
-
-
-
-
-/*    nav            nav          nav              css               nav                              nav         nav      */
-/*    nav            nav          nav              css                nav                              nav         nav      */
 /*    nav            nav          nav              css              nav                              nav         nav      */
-
-
-
 div.head  { width: 1fr; } 
-
 
 ul.main{
     
@@ -94,12 +80,10 @@ ul.main{
     position: relative;
     left:150px;
 }
-
 ul.main a{
     background-color: rgba(189, 35, 35, 0);
     color: black;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 li.LI1{
     list-style: none;
@@ -142,15 +126,8 @@ ul.sub1 li{
 }
 
 
-
-
-
-
 /*  side      side           side                               side                                     side       side  */
 /*  side      side           side                               side                                     side       side  */
-
-
-
 div.side h1{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
@@ -176,20 +153,11 @@ div.side{
     
 }
 
-
-
-
                   /*                    image                                     */
                   /*                    image                                     */
                   /*                    image                                     */
-
-
-
-
 
 div.imagemain{
-
-    
     width:900px;
     height: 2000px;
     position: absolute;
@@ -216,9 +184,7 @@ div.imagemain a{
    background-image:url(./img/1111.jpg);
     background-size: cover;
     margin-top: 100px;
-    
-    
-}
+    }
 
 div.image p{
     position:absolute;
@@ -235,18 +201,9 @@ div.image p:hover{
     color: rgba(255, 235, 205, 0);
 }
 
-
-
-
-
 /*                                                   silder start here                         */
 /*                                                   silder start here                         */
 /*                                                   silder start here                         */
-
-
-
-
-
 /* 11111111111111 */
 div.itam1{
     
@@ -318,10 +275,6 @@ div.itam2 span.cover1{
 div.itam2:hover span.cover1{
     left:900px;
 }
-
-
-
-
 /*                                               assignment    end         */
 /*                                               assignment extra           */
 /*                                               assignment extra           */
@@ -401,10 +354,6 @@ div.end:hover span.three{
     left:1200px;
 }
 
-
-
-
-
 /*                                             flip css              */
 /*                                             flip css              */
 /*                                             flip css              */
@@ -416,10 +365,7 @@ div.flipend
     top:2600px;
     border:solid rgb(66, 65, 65) 50px ;
     border-block-end: 0px;
-     
-    
-
-}
+    }
 a.flipone{
     position: absolute;
     display:block;
@@ -427,10 +373,7 @@ a.flipone{
     border: 2px solid black;
     transition: all 2s ease-in-out 0s;
     transform: perspective(700px)  rotateY(180deg)
-    
-
-
-}
+    }
 
 a.fliptwo{
     position: absolute;
